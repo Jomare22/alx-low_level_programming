@@ -20,7 +20,7 @@ printf("%lu", startnum1);
 for (i = 1; i < 91; i++)
 {
 printf(", %lu", startnum2);
-startum2 += startnum1;
+startnum2 += startnum1;
 startnum1 = startnum2 - startnum1;
 }
 bef1 = (bef / l);
