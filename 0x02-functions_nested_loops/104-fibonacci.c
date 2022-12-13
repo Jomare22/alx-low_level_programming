@@ -23,10 +23,10 @@ printf(", %lu", startnum2);
 startnum2 += startnum1;
 startnum1 = startnum2 - startnum1;
 }
-bef1 = (bef / l);
-bef2 = (bef % l);
-aft1 = (aft / l);
-aft2 = (aft % l);
+bef1 = (startnum1 / l);
+bef2 = (startnum1 % l);
+aft1 = (startnum2 / l);
+aft2 = (startnum2 % l);
 for (i = 92; i < 99; ++i)
 {
 printf(", %lu", aft1 + (aft2 / l));
