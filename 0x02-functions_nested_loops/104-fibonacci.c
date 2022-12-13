@@ -15,7 +15,7 @@ unsigned long int bef1;
 unsigned long int bef2;
 unsigned long int aft1;
 unsigned long int aft2;
- 
+
 printf("%lu", startnum1);
 for (i = 1; i < 91; i++)
 {
