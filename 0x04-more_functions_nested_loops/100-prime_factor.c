@@ -3,7 +3,7 @@
 
 /**
  * main - prints the largest prime factor of the number 612852475143
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -28,9 +28,9 @@ n = n / i;
 }
 }
 if (n > 2)
-{    
+{
 max = n;
-}  
+}
 printf("%ld\n", max);
 return (0);
 }
