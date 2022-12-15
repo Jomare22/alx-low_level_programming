@@ -14,7 +14,7 @@ if (c != 2)
 {
 if (c != 4)
 {
-_putchar("%d", c);
+_putchar(c);
 }
 }
 }
