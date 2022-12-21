@@ -20,7 +20,7 @@ p++;
 length++;
 }
 track = length - 1;
-for (i = 0 ; i <= track ; o++)
+for (i = 0 ; i <= track ; i++)
 {
 if (i % 2 == 0)
 {
