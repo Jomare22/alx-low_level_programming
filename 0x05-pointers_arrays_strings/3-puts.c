@@ -1,82 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-
- * _puts - prints a string, followed by a new line, to stdout
-
+ * _puts - prints a string to stdout
  * @str: string to print
-
  */
-
 void _puts(char *str)
-  
 {
-  
-  while (*str != '\0')
-    
-    {
-      
-      _putchar(*str++);
-      
-    }
-  
-  _putchar('\n');
-  
-}
-
-
-
-Task 4
-
-
-
-#include "main.h"
-
-/**
-
- * print_rev - imprime en reversa
-
- * @s: string
-
- * return: 0
-
- */
-
-void print_rev(char *s)
-
+while (*str != '\0')
 {
-  
-  int longi = 0;
-  
-  int o;
-  
-
-  
-  while (*s != '\0')
-    
-    {
-      
-      longi++;
-      
-      s++;
-      
-    }
-  
-  s--;
-  
-  for (o = longi; o > 0; o--)
-    
-    {
-      
-      _putchar(*s);
-      
-      s--;
-      
-    }
-  
-
-  
-  _putchar('\n');
-  
+_putchar(*str++);
 }
-
+_putchar('\n');
+}
